@@ -1,0 +1,4830 @@
+{
+ "agencies": [
+  [
+   "min-1",
+   "Vazirlik markaziy apparati (A)",
+   "Oddiy",
+   "Toshkent shahri"
+  ],
+  [
+   "min-2",
+   "Vazirlik markaziy apparati (B)",
+   "Oddiy",
+   "Toshkent shahri"
+  ],
+  [
+   "min-3",
+   "Qo‘mita markaziy apparati (C) — MII obyekti",
+   "MII",
+   "Toshkent shahri"
+  ],
+  [
+   "reg-1",
+   "Samarqand viloyati boshqarmasi",
+   "Oddiy",
+   "Samarqand viloyati"
+  ],
+  [
+   "reg-2",
+   "Farg‘ona viloyati boshqarmasi",
+   "Oddiy",
+   "Farg‘ona viloyati"
+  ],
+  [
+   "reg-3",
+   "Qashqadaryo viloyati boshqarmasi — MII obyekti",
+   "MII",
+   "Qashqadaryo viloyati"
+  ],
+  [
+   "dis-1",
+   "Urgut tumani hokimligi",
+   "Oddiy",
+   "Samarqand viloyati"
+  ],
+  [
+   "dis-2",
+   "Qo‘qon tumani hokimligi",
+   "Oddiy",
+   "Farg‘ona viloyati"
+  ],
+  [
+   "dis-3",
+   "Shahrisabz tumani hokimligi",
+   "Oddiy",
+   "Qashqadaryo viloyati"
+  ]
+ ],
+ "officers": [
+  {
+   "index": 1,
+   "username": "e1",
+   "full_name": "Aliyev Jamshid",
+   "position": "Vazirlik markaziy apparati AKT bosh mutaxassisi",
+   "group": "ministry",
+   "agency": "min-1",
+   "experience_years": 9,
+   "pinfl": "31000001234567",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       88,
+       82,
+       83
+      ],
+      "C2": [
+       80,
+       85,
+       77
+      ],
+      "C3": [
+       78,
+       75,
+       75
+      ],
+      "C4": [
+       85,
+       80,
+       82
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       84,
+       87,
+       81
+      ],
+      "C2": [
+       79,
+       84,
+       80
+      ],
+      "C3": [
+       76,
+       83,
+       69
+      ],
+      "C4": [
+       86,
+       76,
+       84
+      ]
+     },
+     "duration_minutes": 30
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       93,
+       87,
+       91
+      ],
+      "C2": [
+       90,
+       85,
+       90
+      ],
+      "C3": [
+       88,
+       79,
+       90
+      ],
+      "C4": [
+       99,
+       83,
+       87
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       81,
+       96,
+       93
+      ],
+      "C2": [
+       92,
+       91,
+       81
+      ],
+      "C3": [
+       88,
+       94,
+       73
+      ],
+      "C4": [
+       82,
+       98,
+       87
+      ]
+     },
+     "duration_minutes": 30
+    }
+   }
+  },
+  {
+   "index": 2,
+   "username": "x02",
+   "full_name": "Sharipova Nilufar",
+   "position": "Tizim ma’muri",
+   "group": "ministry",
+   "agency": "min-2",
+   "experience_years": 15,
+   "pinfl": "31000001242486",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       65,
+       53,
+       61
+      ],
+      "C2": [
+       29,
+       28,
+       27
+      ],
+      "C3": [
+       61,
+       58,
+       55
+      ],
+      "C4": [
+       62,
+       49,
+       46
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       66,
+       59,
+       52
+      ],
+      "C2": [
+       27,
+       22,
+       35
+      ],
+      "C3": [
+       65,
+       52,
+       57
+      ],
+      "C4": [
+       44,
+       53,
+       59
+      ]
+     },
+     "duration_minutes": 31
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       69,
+       52,
+       65
+      ],
+      "C2": [
+       99,
+       99,
+       99
+      ],
+      "C3": [
+       81,
+       70,
+       79
+      ],
+      "C4": [
+       85,
+       65,
+       75
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       49,
+       65,
+       69
+      ],
+      "C2": [
+       100,
+       90,
+       98
+      ],
+      "C3": [
+       80,
+       73,
+       75
+      ],
+      "C4": [
+       73,
+       66,
+       83
+      ]
+     },
+     "duration_minutes": 31
+    }
+   }
+  },
+  {
+   "index": 3,
+   "username": "x03",
+   "full_name": "Olimov Shoxrux",
+   "position": "Raqamlashtirish bo‘limi boshlig‘i o‘rinbosari",
+   "group": "ministry",
+   "agency": "min-3",
+   "experience_years": 13,
+   "pinfl": "31000001250405",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       78,
+       59,
+       70
+      ],
+      "C2": [
+       78,
+       50,
+       52
+      ],
+      "C3": [
+       41,
+       23,
+       35
+      ],
+      "C4": [
+       61,
+       56,
+       51
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       69,
+       76,
+       59
+      ],
+      "C2": [
+       51,
+       75,
+       51
+      ],
+      "C3": [
+       43,
+       27,
+       26
+      ],
+      "C4": [
+       48,
+       65,
+       55
+      ]
+     },
+     "duration_minutes": 32
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       100,
+       93,
+       96
+      ],
+      "C2": [
+       76,
+       52,
+       58
+      ],
+      "C3": [
+       60,
+       55,
+       50
+      ],
+      "C4": [
+       80,
+       55,
+       60
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       100,
+       97,
+       89
+      ],
+      "C2": [
+       70,
+       69,
+       44
+      ],
+      "C3": [
+       49,
+       52,
+       64
+      ],
+      "C4": [
+       57,
+       69,
+       66
+      ]
+     },
+     "duration_minutes": 32
+    }
+   }
+  },
+  {
+   "index": 4,
+   "username": "x04",
+   "full_name": "Fayziyeva Shahlo",
+   "position": "AKT bosh mutaxassisi",
+   "group": "ministry",
+   "agency": "min-1",
+   "experience_years": 8,
+   "pinfl": "31000001258324",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       50,
+       35,
+       40
+      ],
+      "C2": [
+       44,
+       32,
+       30
+      ],
+      "C3": [
+       30,
+       18,
+       26
+      ],
+      "C4": [
+       60,
+       56,
+       62
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       42,
+       48,
+       33
+      ],
+      "C2": [
+       37,
+       32,
+       36
+      ],
+      "C3": [
+       26,
+       18,
+       28
+      ],
+      "C4": [
+       59,
+       62,
+       56
+      ]
+     },
+     "duration_minutes": 33
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       99,
+       91,
+       93
+      ],
+      "C2": [
+       58,
+       44,
+       50
+      ],
+      "C3": [
+       70,
+       55,
+       60
+      ],
+      "C4": [
+       97,
+       95,
+       93
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       96,
+       87,
+       99
+      ],
+      "C2": [
+       51,
+       48,
+       51
+      ],
+      "C3": [
+       57,
+       62,
+       64
+      ],
+      "C4": [
+       94,
+       100,
+       91
+      ]
+     },
+     "duration_minutes": 33
+    }
+   }
+  },
+  {
+   "index": 5,
+   "username": "x05",
+   "full_name": "Olimov Valijon",
+   "position": "Raqamlashtirish bo‘limi boshlig‘i o‘rinbosari",
+   "group": "ministry",
+   "agency": "min-2",
+   "experience_years": 4,
+   "pinfl": "31000001266243",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       48,
+       38,
+       38
+      ],
+      "C2": [
+       65,
+       58,
+       61
+      ],
+      "C3": [
+       42,
+       21,
+       20
+      ],
+      "C4": [
+       49,
+       38,
+       37
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       45,
+       37,
+       41
+      ],
+      "C2": [
+       59,
+       62,
+       62
+      ],
+      "C3": [
+       29,
+       30,
+       22
+      ],
+      "C4": [
+       43,
+       44,
+       36
+      ]
+     },
+     "duration_minutes": 34
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       71,
+       46,
+       51
+      ],
+      "C2": [
+       92,
+       81,
+       90
+      ],
+      "C3": [
+       56,
+       47,
+       58
+      ],
+      "C4": [
+       76,
+       81,
+       86
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       56,
+       58,
+       51
+      ],
+      "C2": [
+       95,
+       85,
+       81
+      ],
+      "C3": [
+       53,
+       45,
+       61
+      ],
+      "C4": [
+       74,
+       85,
+       84
+      ]
+     },
+     "duration_minutes": 34
+    }
+   }
+  },
+  {
+   "index": 6,
+   "username": "x06",
+   "full_name": "Mirzayeva Shahlo",
+   "position": "Tarmoq muhandisi",
+   "group": "ministry",
+   "agency": "min-3",
+   "experience_years": 6,
+   "pinfl": "31000001274162",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       65,
+       52,
+       49
+      ],
+      "C2": [
+       36,
+       18,
+       30
+      ],
+      "C3": [
+       46,
+       39,
+       32
+      ],
+      "C4": [
+       64,
+       54,
+       54
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       55,
+       55,
+       55
+      ],
+      "C2": [
+       39,
+       21,
+       21
+      ],
+      "C3": [
+       48,
+       37,
+       32
+      ],
+      "C4": [
+       54,
+       54,
+       63
+      ]
+     },
+     "duration_minutes": 35
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       79,
+       82,
+       85
+      ],
+      "C2": [
+       92,
+       91,
+       90
+      ],
+      "C3": [
+       93,
+       94,
+       95
+      ],
+      "C4": [
+       78,
+       65,
+       62
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       75,
+       82,
+       89
+      ],
+      "C2": [
+       89,
+       91,
+       93
+      ],
+      "C3": [
+       100,
+       84,
+       98
+      ],
+      "C4": [
+       68,
+       69,
+       67
+      ]
+     },
+     "duration_minutes": 35
+    }
+   }
+  },
+  {
+   "index": 7,
+   "username": "x07",
+   "full_name": "Jo‘rayev Hasan",
+   "position": "AKT bosh mutaxassisi",
+   "group": "ministry",
+   "agency": "min-1",
+   "experience_years": 14,
+   "pinfl": "31000001282081",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       89,
+       79,
+       79
+      ],
+      "C2": [
+       80,
+       68,
+       76
+      ],
+      "C3": [
+       64,
+       46,
+       58
+      ],
+      "C4": [
+       92,
+       73,
+       74
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       85,
+       71,
+       90
+      ],
+      "C2": [
+       77,
+       76,
+       69
+      ],
+      "C3": [
+       55,
+       60,
+       50
+      ],
+      "C4": [
+       82,
+       86,
+       69
+      ]
+     },
+     "duration_minutes": 36
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       92,
+       92,
+       92
+      ],
+      "C2": [
+       98,
+       94,
+       100
+      ],
+      "C3": [
+       100,
+       97,
+       94
+      ],
+      "C4": [
+       91,
+       92,
+       93
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       88,
+       98,
+       90
+      ],
+      "C2": [
+       100,
+       93,
+       92
+      ],
+      "C3": [
+       100,
+       98,
+       89
+      ],
+      "C4": [
+       84,
+       90,
+       100
+      ]
+     },
+     "duration_minutes": 36
+    }
+   }
+  },
+  {
+   "index": 8,
+   "username": "x08",
+   "full_name": "Qodirov Zafar",
+   "position": "Tizim ma’muri",
+   "group": "ministry",
+   "agency": "min-2",
+   "experience_years": 9,
+   "pinfl": "31000001290000",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       70,
+       53,
+       66
+      ],
+      "C2": [
+       43,
+       15,
+       17
+      ],
+      "C3": [
+       86,
+       73,
+       70
+      ],
+      "C4": [
+       35,
+       31,
+       37
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       68,
+       63,
+       55
+      ],
+      "C2": [
+       19,
+       34,
+       19
+      ],
+      "C3": [
+       82,
+       72,
+       74
+      ],
+      "C4": [
+       25,
+       42,
+       35
+      ]
+     },
+     "duration_minutes": 37
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       77,
+       65,
+       73
+      ],
+      "C2": [
+       81,
+       68,
+       75
+      ],
+      "C3": [
+       100,
+       99,
+       98
+      ],
+      "C4": [
+       97,
+       86,
+       95
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       69,
+       79,
+       65
+      ],
+      "C2": [
+       76,
+       79,
+       67
+      ],
+      "C3": [
+       92,
+       100,
+       100
+      ],
+      "C4": [
+       100,
+       83,
+       85
+      ]
+     },
+     "duration_minutes": 37
+    }
+   }
+  },
+  {
+   "index": 9,
+   "username": "x09",
+   "full_name": "Tursunova Kamola",
+   "position": "Tizim ma’muri",
+   "group": "ministry",
+   "agency": "min-3",
+   "experience_years": 11,
+   "pinfl": "31000001297919",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       88,
+       69,
+       70
+      ],
+      "C2": [
+       87,
+       90,
+       93
+      ],
+      "C3": [
+       42,
+       43,
+       44
+      ],
+      "C4": [
+       64,
+       58,
+       52
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       77,
+       73,
+       75
+      ],
+      "C2": [
+       87,
+       97,
+       86
+      ],
+      "C3": [
+       44,
+       35,
+       50
+      ],
+      "C4": [
+       66,
+       61,
+       47
+      ]
+     },
+     "duration_minutes": 38
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       97,
+       78,
+       79
+      ],
+      "C2": [
+       96,
+       87,
+       98
+      ],
+      "C3": [
+       73,
+       69,
+       65
+      ],
+      "C4": [
+       73,
+       73,
+       73
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       75,
+       94,
+       83
+      ],
+      "C2": [
+       85,
+       99,
+       95
+      ],
+      "C3": [
+       70,
+       76,
+       61
+      ],
+      "C4": [
+       79,
+       70,
+       70
+      ]
+     },
+     "duration_minutes": 38
+    }
+   }
+  },
+  {
+   "index": 10,
+   "username": "x10",
+   "full_name": "Mirzayev Jahongir",
+   "position": "Axborot xavfsizligi bo‘limi yetakchi mutaxassisi",
+   "group": "ministry",
+   "agency": "min-1",
+   "experience_years": 10,
+   "pinfl": "31000001305838",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       64,
+       57,
+       60
+      ],
+      "C2": [
+       90,
+       71,
+       72
+      ],
+      "C3": [
+       70,
+       74,
+       78
+      ],
+      "C4": [
+       100,
+       89,
+       98
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       64,
+       51,
+       65
+      ],
+      "C2": [
+       90,
+       72,
+       69
+      ],
+      "C3": [
+       66,
+       91,
+       65
+      ],
+      "C4": [
+       89,
+       88,
+       100
+      ]
+     },
+     "duration_minutes": 39
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       74,
+       61,
+       68
+      ],
+      "C2": [
+       88,
+       85,
+       82
+      ],
+      "C3": [
+       84,
+       72,
+       80
+      ],
+      "C4": [
+       97,
+       98,
+       99
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       67,
+       59,
+       75
+      ],
+      "C2": [
+       85,
+       79,
+       91
+      ],
+      "C3": [
+       76,
+       84,
+       74
+      ],
+      "C4": [
+       88,
+       100,
+       100
+      ]
+     },
+     "duration_minutes": 39
+    }
+   }
+  },
+  {
+   "index": 11,
+   "username": "x11",
+   "full_name": "Olimova Gulnora",
+   "position": "Tarmoq muhandisi",
+   "group": "ministry",
+   "agency": "min-2",
+   "experience_years": 6,
+   "pinfl": "31000001313757",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       63,
+       59,
+       65
+      ],
+      "C2": [
+       98,
+       86,
+       94
+      ],
+      "C3": [
+       80,
+       67,
+       64
+      ],
+      "C4": [
+       52,
+       50,
+       48
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       66,
+       66,
+       54
+      ],
+      "C2": [
+       92,
+       83,
+       100
+      ],
+      "C3": [
+       70,
+       62,
+       78
+      ],
+      "C4": [
+       54,
+       53,
+       43
+      ]
+     },
+     "duration_minutes": 40
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       92,
+       82,
+       92
+      ],
+      "C2": [
+       100,
+       97,
+       94
+      ],
+      "C3": [
+       87,
+       70,
+       73
+      ],
+      "C4": [
+       95,
+       83,
+       81
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       83,
+       79,
+       100
+      ],
+      "C2": [
+       89,
+       98,
+       100
+      ],
+      "C3": [
+       82,
+       65,
+       81
+      ],
+      "C4": [
+       79,
+       87,
+       92
+      ]
+     },
+     "duration_minutes": 40
+    }
+   }
+  },
+  {
+   "index": 12,
+   "username": "x12",
+   "full_name": "Botirov Hasan",
+   "position": "Tarmoq muhandisi",
+   "group": "ministry",
+   "agency": "min-3",
+   "experience_years": 6,
+   "pinfl": "31000001321676",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       98,
+       85,
+       82
+      ],
+      "C2": [
+       65,
+       61,
+       67
+      ],
+      "C3": [
+       71,
+       70,
+       69
+      ],
+      "C4": [
+       85,
+       68,
+       71
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       90,
+       79,
+       95
+      ],
+      "C2": [
+       50,
+       70,
+       72
+      ],
+      "C3": [
+       75,
+       64,
+       71
+      ],
+      "C4": [
+       67,
+       76,
+       79
+      ]
+     },
+     "duration_minutes": 30
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       96,
+       96,
+       96
+      ],
+      "C2": [
+       84,
+       73,
+       72
+      ],
+      "C3": [
+       96,
+       71,
+       76
+      ],
+      "C4": [
+       95,
+       78,
+       81
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       100,
+       96,
+       91
+      ],
+      "C2": [
+       84,
+       80,
+       64
+      ],
+      "C3": [
+       72,
+       71,
+       97
+      ],
+      "C4": [
+       76,
+       91,
+       85
+      ]
+     },
+     "duration_minutes": 30
+    }
+   }
+  },
+  {
+   "index": 13,
+   "username": "x13",
+   "full_name": "Yo‘ldoshev Shoxrux",
+   "position": "Tizim ma’muri",
+   "group": "ministry",
+   "agency": "min-1",
+   "experience_years": 7,
+   "pinfl": "31000001329595",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       68,
+       65,
+       72
+      ],
+      "C2": [
+       51,
+       53,
+       55
+      ],
+      "C3": [
+       20,
+       23,
+       26
+      ],
+      "C4": [
+       96,
+       90,
+       84
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       70,
+       74,
+       60
+      ],
+      "C2": [
+       64,
+       47,
+       48
+      ],
+      "C3": [
+       16,
+       28,
+       25
+      ],
+      "C4": [
+       90,
+       82,
+       98
+      ]
+     },
+     "duration_minutes": 31
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       100,
+       77,
+       84
+      ],
+      "C2": [
+       98,
+       71,
+       74
+      ],
+      "C3": [
+       56,
+       35,
+       34
+      ],
+      "C4": [
+       95,
+       95,
+       95
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       82,
+       84,
+       92
+      ],
+      "C2": [
+       76,
+       81,
+       83
+      ],
+      "C3": [
+       53,
+       35,
+       35
+      ],
+      "C4": [
+       100,
+       93,
+       91
+      ]
+     },
+     "duration_minutes": 31
+    }
+   }
+  },
+  {
+   "index": 14,
+   "username": "x14",
+   "full_name": "Sobirov Bobur",
+   "position": "Raqamlashtirish bo‘limi boshlig‘i o‘rinbosari",
+   "group": "ministry",
+   "agency": "min-2",
+   "experience_years": 6,
+   "pinfl": "31000001337514",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       32,
+       33,
+       34
+      ],
+      "C2": [
+       48,
+       39,
+       40
+      ],
+      "C3": [
+       90,
+       77,
+       84
+      ],
+      "C4": [
+       92,
+       80,
+       88
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       32,
+       25,
+       42
+      ],
+      "C2": [
+       47,
+       51,
+       28
+      ],
+      "C3": [
+       88,
+       81,
+       80
+      ],
+      "C4": [
+       95,
+       81,
+       82
+      ]
+     },
+     "duration_minutes": 32
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       82,
+       71,
+       70
+      ],
+      "C2": [
+       73,
+       68,
+       63
+      ],
+      "C3": [
+       88,
+       88,
+       88
+      ],
+      "C4": [
+       97,
+       87,
+       87
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       72,
+       70,
+       80
+      ],
+      "C2": [
+       67,
+       75,
+       62
+      ],
+      "C3": [
+       98,
+       84,
+       82
+      ],
+      "C4": [
+       91,
+       86,
+       93
+      ]
+     },
+     "duration_minutes": 32
+    }
+   }
+  },
+  {
+   "index": 15,
+   "username": "x15",
+   "full_name": "Ergashev Sherzod",
+   "position": "AKT bosh mutaxassisi",
+   "group": "ministry",
+   "agency": "min-3",
+   "experience_years": 4,
+   "pinfl": "31000001345433",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       58,
+       45,
+       52
+      ],
+      "C2": [
+       57,
+       58,
+       59
+      ],
+      "C3": [
+       45,
+       25,
+       35
+      ],
+      "C4": [
+       54,
+       32,
+       40
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       58,
+       43,
+       52
+      ],
+      "C2": [
+       50,
+       63,
+       61
+      ],
+      "C3": [
+       34,
+       32,
+       36
+      ],
+      "C4": [
+       46,
+       34,
+       43
+      ]
+     },
+     "duration_minutes": 33
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       93,
+       91,
+       99
+      ],
+      "C2": [
+       75,
+       75,
+       75
+      ],
+      "C3": [
+       71,
+       74,
+       77
+      ],
+      "C4": [
+       92,
+       83,
+       84
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       89,
+       96,
+       97
+      ],
+      "C2": [
+       83,
+       68,
+       74
+      ],
+      "C3": [
+       62,
+       81,
+       79
+      ],
+      "C4": [
+       88,
+       89,
+       81
+      ]
+     },
+     "duration_minutes": 33
+    }
+   }
+  },
+  {
+   "index": 16,
+   "username": "e2",
+   "full_name": "Karimov Sardor",
+   "position": "Viloyat boshqarmasi tarmoq ma’muri",
+   "group": "regional",
+   "agency": "reg-1",
+   "experience_years": 5,
+   "pinfl": "31000001353352",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       80,
+       70,
+       67
+      ],
+      "C2": [
+       70,
+       60,
+       53
+      ],
+      "C3": [
+       60,
+       40,
+       33
+      ],
+      "C4": [
+       80,
+       75,
+       70
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       79,
+       78,
+       59
+      ],
+      "C2": [
+       68,
+       51,
+       64
+      ],
+      "C3": [
+       43,
+       48,
+       41
+      ],
+      "C4": [
+       79,
+       68,
+       78
+      ]
+     },
+     "duration_minutes": 34
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       92,
+       76,
+       80
+      ],
+      "C2": [
+       92,
+       72,
+       72
+      ],
+      "C3": [
+       81,
+       72,
+       73
+      ],
+      "C4": [
+       89,
+       81,
+       83
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       87,
+       79,
+       80
+      ],
+      "C2": [
+       81,
+       77,
+       76
+      ],
+      "C3": [
+       71,
+       82,
+       72
+      ],
+      "C4": [
+       83,
+       93,
+       76
+      ]
+     },
+     "duration_minutes": 34
+    }
+   }
+  },
+  {
+   "index": 17,
+   "username": "x17",
+   "full_name": "Qodirov Xurshid",
+   "position": "Axborot xavfsizligi mutaxassisi",
+   "group": "regional",
+   "agency": "reg-2",
+   "experience_years": 7,
+   "pinfl": "31000001361271",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       74,
+       56,
+       58
+      ],
+      "C2": [
+       76,
+       69,
+       72
+      ],
+      "C3": [
+       61,
+       52,
+       53
+      ],
+      "C4": [
+       65,
+       55,
+       65
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       68,
+       58,
+       60
+      ],
+      "C2": [
+       70,
+       72,
+       74
+      ],
+      "C3": [
+       64,
+       49,
+       52
+      ],
+      "C4": [
+       70,
+       59,
+       54
+      ]
+     },
+     "duration_minutes": 35
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       91,
+       65,
+       69
+      ],
+      "C2": [
+       81,
+       81,
+       81
+      ],
+      "C3": [
+       95,
+       89,
+       83
+      ],
+      "C4": [
+       84,
+       75,
+       76
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       81,
+       71,
+       70
+      ],
+      "C2": [
+       78,
+       73,
+       92
+      ],
+      "C3": [
+       90,
+       87,
+       90
+      ],
+      "C4": [
+       90,
+       74,
+       70
+      ]
+     },
+     "duration_minutes": 35
+    }
+   }
+  },
+  {
+   "index": 18,
+   "username": "x18",
+   "full_name": "Rahimov Xurshid",
+   "position": "Axborot xavfsizligi mutaxassisi",
+   "group": "regional",
+   "agency": "reg-3",
+   "experience_years": 4,
+   "pinfl": "31000001369190",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       65,
+       59,
+       53
+      ],
+      "C2": [
+       56,
+       51,
+       46
+      ],
+      "C3": [
+       65,
+       41,
+       47
+      ],
+      "C4": [
+       82,
+       82,
+       82
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       64,
+       66,
+       47
+      ],
+      "C2": [
+       59,
+       42,
+       52
+      ],
+      "C3": [
+       62,
+       43,
+       45
+      ],
+      "C4": [
+       73,
+       85,
+       88
+      ]
+     },
+     "duration_minutes": 36
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       94,
+       90,
+       86
+      ],
+      "C2": [
+       78,
+       69,
+       80
+      ],
+      "C3": [
+       97,
+       93,
+       99
+      ],
+      "C4": [
+       92,
+       89,
+       96
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       83,
+       89,
+       98
+      ],
+      "C2": [
+       82,
+       63,
+       80
+      ],
+      "C3": [
+       100,
+       85,
+       100
+      ],
+      "C4": [
+       92,
+       83,
+       100
+      ]
+     },
+     "duration_minutes": 36
+    }
+   }
+  },
+  {
+   "index": 19,
+   "username": "x19",
+   "full_name": "Jo‘rayeva Madina",
+   "position": "Raqamlashtirish sektori mudiri",
+   "group": "regional",
+   "agency": "reg-1",
+   "experience_years": 6,
+   "pinfl": "31000001377109",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       70,
+       51,
+       52
+      ],
+      "C2": [
+       40,
+       44,
+       48
+      ],
+      "C3": [
+       73,
+       47,
+       51
+      ],
+      "C4": [
+       85,
+       80,
+       75
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       66,
+       50,
+       55
+      ],
+      "C2": [
+       54,
+       38,
+       40
+      ],
+      "C3": [
+       60,
+       57,
+       51
+      ],
+      "C4": [
+       85,
+       72,
+       83
+      ]
+     },
+     "duration_minutes": 37
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       58,
+       60,
+       62
+      ],
+      "C2": [
+       79,
+       60,
+       61
+      ],
+      "C3": [
+       59,
+       56,
+       63
+      ],
+      "C4": [
+       94,
+       87,
+       80
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       59,
+       63,
+       58
+      ],
+      "C2": [
+       59,
+       69,
+       70
+      ],
+      "C3": [
+       55,
+       63,
+       59
+      ],
+      "C4": [
+       95,
+       85,
+       81
+      ]
+     },
+     "duration_minutes": 37
+    }
+   }
+  },
+  {
+   "index": 20,
+   "username": "x20",
+   "full_name": "Jo‘rayeva Malika",
+   "position": "Raqamlashtirish sektori mudiri",
+   "group": "regional",
+   "agency": "reg-2",
+   "experience_years": 1,
+   "pinfl": "31000001385028",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       72,
+       70,
+       78
+      ],
+      "C2": [
+       66,
+       67,
+       68
+      ],
+      "C3": [
+       76,
+       58,
+       60
+      ],
+      "C4": [
+       86,
+       89,
+       92
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       87,
+       68,
+       64
+      ],
+      "C2": [
+       63,
+       59,
+       79
+      ],
+      "C3": [
+       77,
+       56,
+       59
+      ],
+      "C4": [
+       98,
+       84,
+       85
+      ]
+     },
+     "duration_minutes": 38
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       88,
+       71,
+       74
+      ],
+      "C2": [
+       99,
+       92,
+       85
+      ],
+      "C3": [
+       99,
+       82,
+       85
+      ],
+      "C4": [
+       97,
+       97,
+       97
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       82,
+       79,
+       70
+      ],
+      "C2": [
+       93,
+       92,
+       91
+      ],
+      "C3": [
+       92,
+       80,
+       92
+      ],
+      "C4": [
+       97,
+       100,
+       91
+      ]
+     },
+     "duration_minutes": 38
+    }
+   }
+  },
+  {
+   "index": 21,
+   "username": "x21",
+   "full_name": "Rahimov Ulug‘bek",
+   "position": "AKT bo‘limi bosh mutaxassisi",
+   "group": "regional",
+   "agency": "reg-3",
+   "experience_years": 1,
+   "pinfl": "31000001392947",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       87,
+       72,
+       77
+      ],
+      "C2": [
+       85,
+       82,
+       89
+      ],
+      "C3": [
+       81,
+       74,
+       77
+      ],
+      "C4": [
+       87,
+       78,
+       89
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       65,
+       82,
+       87
+      ],
+      "C2": [
+       82,
+       81,
+       92
+      ],
+      "C3": [
+       73,
+       84,
+       74
+      ],
+      "C4": [
+       79,
+       77,
+       96
+      ]
+     },
+     "duration_minutes": 39
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       95,
+       87,
+       89
+      ],
+      "C2": [
+       87,
+       89,
+       91
+      ],
+      "C3": [
+       78,
+       82,
+       86
+      ],
+      "C4": [
+       96,
+       83,
+       80
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       81,
+       92,
+       97
+      ],
+      "C2": [
+       95,
+       90,
+       82
+      ],
+      "C3": [
+       87,
+       82,
+       77
+      ],
+      "C4": [
+       86,
+       94,
+       78
+      ]
+     },
+     "duration_minutes": 39
+    }
+   }
+  },
+  {
+   "index": 22,
+   "username": "x22",
+   "full_name": "Abdullayev Shoxrux",
+   "position": "Raqamlashtirish sektori mudiri",
+   "group": "regional",
+   "agency": "reg-1",
+   "experience_years": 3,
+   "pinfl": "31000001400866",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       60,
+       41,
+       52
+      ],
+      "C2": [
+       67,
+       49,
+       51
+      ],
+      "C3": [
+       88,
+       61,
+       64
+      ],
+      "C4": [
+       47,
+       43,
+       39
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       54,
+       47,
+       49
+      ],
+      "C2": [
+       50,
+       53,
+       62
+      ],
+      "C3": [
+       62,
+       74,
+       74
+      ],
+      "C4": [
+       38,
+       49,
+       42
+      ]
+     },
+     "duration_minutes": 40
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       95,
+       78,
+       91
+      ],
+      "C2": [
+       96,
+       97,
+       98
+      ],
+      "C3": [
+       92,
+       66,
+       70
+      ],
+      "C4": [
+       55,
+       42,
+       39
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       85,
+       90,
+       86
+      ],
+      "C2": [
+       92,
+       98,
+       100
+      ],
+      "C3": [
+       82,
+       63,
+       80
+      ],
+      "C4": [
+       38,
+       44,
+       53
+      ]
+     },
+     "duration_minutes": 40
+    }
+   }
+  },
+  {
+   "index": 23,
+   "username": "x23",
+   "full_name": "Jo‘rayev Sanjar",
+   "position": "Axborot xavfsizligi mutaxassisi",
+   "group": "regional",
+   "agency": "reg-2",
+   "experience_years": 10,
+   "pinfl": "31000001408785",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       65,
+       46,
+       47
+      ],
+      "C2": [
+       84,
+       62,
+       70
+      ],
+      "C3": [
+       48,
+       27,
+       26
+      ],
+      "C4": [
+       93,
+       88,
+       83
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       60,
+       41,
+       55
+      ],
+      "C2": [
+       74,
+       75,
+       64
+      ],
+      "C3": [
+       41,
+       16,
+       42
+      ],
+      "C4": [
+       97,
+       80,
+       87
+      ]
+     },
+     "duration_minutes": 30
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       87,
+       75,
+       83
+      ],
+      "C2": [
+       93,
+       74,
+       85
+      ],
+      "C3": [
+       90,
+       84,
+       78
+      ],
+      "C4": [
+       95,
+       91,
+       97
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       78,
+       75,
+       90
+      ],
+      "C2": [
+       85,
+       90,
+       74
+      ],
+      "C3": [
+       86,
+       77,
+       89
+      ],
+      "C4": [
+       85,
+       99,
+       98
+      ]
+     },
+     "duration_minutes": 30
+    }
+   }
+  },
+  {
+   "index": 24,
+   "username": "x24",
+   "full_name": "Sobirova Umida",
+   "position": "Axborot xavfsizligi mutaxassisi",
+   "group": "regional",
+   "agency": "reg-3",
+   "experience_years": 8,
+   "pinfl": "31000001416704",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       15,
+       20,
+       25
+      ],
+      "C2": [
+       64,
+       46,
+       58
+      ],
+      "C3": [
+       60,
+       45,
+       50
+      ],
+      "C4": [
+       39,
+       30,
+       31
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       22,
+       11,
+       27
+      ],
+      "C2": [
+       53,
+       48,
+       64
+      ],
+      "C3": [
+       52,
+       41,
+       60
+      ],
+      "C4": [
+       35,
+       36,
+       28
+      ]
+     },
+     "duration_minutes": 31
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       61,
+       64,
+       67
+      ],
+      "C2": [
+       56,
+       53,
+       60
+      ],
+      "C3": [
+       54,
+       59,
+       64
+      ],
+      "C4": [
+       97,
+       69,
+       71
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       64,
+       63,
+       65
+      ],
+      "C2": [
+       54,
+       67,
+       47
+      ],
+      "C3": [
+       59,
+       58,
+       60
+      ],
+      "C4": [
+       87,
+       86,
+       61
+      ]
+     },
+     "duration_minutes": 31
+    }
+   }
+  },
+  {
+   "index": 25,
+   "username": "x25",
+   "full_name": "Valiyev Xurshid",
+   "position": "Tizim ma’muri",
+   "group": "regional",
+   "agency": "reg-1",
+   "experience_years": 11,
+   "pinfl": "31000001424623",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       71,
+       55,
+       59
+      ],
+      "C2": [
+       49,
+       28,
+       27
+      ],
+      "C3": [
+       61,
+       36,
+       41
+      ],
+      "C4": [
+       75,
+       48,
+       51
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       69,
+       65,
+       49
+      ],
+      "C2": [
+       37,
+       27,
+       38
+      ],
+      "C3": [
+       43,
+       54,
+       38
+      ],
+      "C4": [
+       63,
+       51,
+       57
+      ]
+     },
+     "duration_minutes": 32
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       68,
+       65,
+       62
+      ],
+      "C2": [
+       65,
+       46,
+       57
+      ],
+      "C3": [
+       73,
+       69,
+       75
+      ],
+      "C4": [
+       60,
+       63,
+       66
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       64,
+       56,
+       75
+      ],
+      "C2": [
+       68,
+       47,
+       50
+      ],
+      "C3": [
+       58,
+       79,
+       79
+      ],
+      "C4": [
+       54,
+       70,
+       65
+      ]
+     },
+     "duration_minutes": 32
+    }
+   }
+  },
+  {
+   "index": 26,
+   "username": "x26",
+   "full_name": "Xolmatov Dilshod",
+   "position": "Raqamlashtirish sektori mudiri",
+   "group": "regional",
+   "agency": "reg-2",
+   "experience_years": 9,
+   "pinfl": "31000001432542",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       84,
+       63,
+       62
+      ],
+      "C2": [
+       100,
+       79,
+       78
+      ],
+      "C3": [
+       53,
+       41,
+       39
+      ],
+      "C4": [
+       60,
+       35,
+       40
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       71,
+       69,
+       67
+      ],
+      "C2": [
+       87,
+       87,
+       81
+      ],
+      "C3": [
+       40,
+       45,
+       47
+      ],
+      "C4": [
+       36,
+       49,
+       47
+      ]
+     },
+     "duration_minutes": 33
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       75,
+       66,
+       77
+      ],
+      "C2": [
+       100,
+       98,
+       96
+      ],
+      "C3": [
+       100,
+       93,
+       86
+      ],
+      "C4": [
+       68,
+       43,
+       48
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       63,
+       69,
+       84
+      ],
+      "C2": [
+       97,
+       100,
+       96
+      ],
+      "C3": [
+       100,
+       90,
+       88
+      ],
+      "C4": [
+       51,
+       57,
+       48
+      ]
+     },
+     "duration_minutes": 33
+    }
+   }
+  },
+  {
+   "index": 27,
+   "username": "x27",
+   "full_name": "Sobirova Kamola",
+   "position": "AKT bo‘limi bosh mutaxassisi",
+   "group": "regional",
+   "agency": "reg-3",
+   "experience_years": 7,
+   "pinfl": "31000001440461",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       64,
+       53,
+       62
+      ],
+      "C2": [
+       27,
+       21,
+       15
+      ],
+      "C3": [
+       54,
+       49,
+       54
+      ],
+      "C4": [
+       68,
+       58,
+       58
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       62,
+       58,
+       57
+      ],
+      "C2": [
+       18,
+       20,
+       25
+      ],
+      "C3": [
+       58,
+       44,
+       54
+      ],
+      "C4": [
+       52,
+       63,
+       68
+      ]
+     },
+     "duration_minutes": 34
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       98,
+       73,
+       78
+      ],
+      "C2": [
+       87,
+       89,
+       91
+      ],
+      "C3": [
+       64,
+       55,
+       66
+      ],
+      "C4": [
+       99,
+       99,
+       99
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       76,
+       78,
+       92
+      ],
+      "C2": [
+       89,
+       85,
+       93
+      ],
+      "C3": [
+       61,
+       58,
+       64
+      ],
+      "C4": [
+       99,
+       100,
+       94
+      ]
+     },
+     "duration_minutes": 34
+    }
+   }
+  },
+  {
+   "index": 28,
+   "username": "x28",
+   "full_name": "Usmonova Nilufar",
+   "position": "Axborot xavfsizligi mutaxassisi",
+   "group": "regional",
+   "agency": "reg-1",
+   "experience_years": 11,
+   "pinfl": "31000001448380",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       87,
+       85,
+       83
+      ],
+      "C2": [
+       79,
+       64,
+       69
+      ],
+      "C3": [
+       38,
+       21,
+       24
+      ],
+      "C4": [
+       23,
+       20,
+       17
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       92,
+       90,
+       73
+      ],
+      "C2": [
+       72,
+       76,
+       62
+      ],
+      "C3": [
+       21,
+       20,
+       40
+      ],
+      "C4": [
+       29,
+       20,
+       11
+      ]
+     },
+     "duration_minutes": 35
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       96,
+       83,
+       80
+      ],
+      "C2": [
+       74,
+       73,
+       72
+      ],
+      "C3": [
+       29,
+       26,
+       33
+      ],
+      "C4": [
+       85,
+       83,
+       91
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       78,
+       91,
+       89
+      ],
+      "C2": [
+       74,
+       80,
+       65
+      ],
+      "C3": [
+       29,
+       22,
+       36
+      ],
+      "C4": [
+       74,
+       90,
+       94
+      ]
+     },
+     "duration_minutes": 35
+    }
+   }
+  },
+  {
+   "index": 29,
+   "username": "x29",
+   "full_name": "Rahimov Nodir",
+   "position": "AKT bo‘limi bosh mutaxassisi",
+   "group": "regional",
+   "agency": "reg-2",
+   "experience_years": 9,
+   "pinfl": "31000001456299",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       57,
+       45,
+       53
+      ],
+      "C2": [
+       36,
+       18,
+       20
+      ],
+      "C3": [
+       26,
+       28,
+       30
+      ],
+      "C4": [
+       71,
+       68,
+       75
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       52,
+       49,
+       52
+      ],
+      "C2": [
+       30,
+       21,
+       21
+      ],
+      "C3": [
+       31,
+       18,
+       35
+      ],
+      "C4": [
+       79,
+       62,
+       72
+      ]
+     },
+     "duration_minutes": 36
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       76,
+       70,
+       64
+      ],
+      "C2": [
+       68,
+       47,
+       46
+      ],
+      "C3": [
+       70,
+       57,
+       54
+      ],
+      "C4": [
+       99,
+       98,
+       97
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       74,
+       66,
+       70
+      ],
+      "C2": [
+       47,
+       51,
+       61
+      ],
+      "C3": [
+       65,
+       61,
+       54
+      ],
+      "C4": [
+       90,
+       100,
+       100
+      ]
+     },
+     "duration_minutes": 36
+    }
+   }
+  },
+  {
+   "index": 30,
+   "username": "x30",
+   "full_name": "Yo‘ldosheva Umida",
+   "position": "Tarmoq ma’muri",
+   "group": "regional",
+   "agency": "reg-3",
+   "experience_years": 4,
+   "pinfl": "31000001464218",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       60,
+       48,
+       56
+      ],
+      "C2": [
+       45,
+       31,
+       37
+      ],
+      "C3": [
+       44,
+       29,
+       34
+      ],
+      "C4": [
+       63,
+       68,
+       73
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       62,
+       46,
+       54
+      ],
+      "C2": [
+       33,
+       34,
+       44
+      ],
+      "C3": [
+       40,
+       37,
+       28
+      ],
+      "C4": [
+       60,
+       81,
+       63
+      ]
+     },
+     "duration_minutes": 37
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       98,
+       77,
+       86
+      ],
+      "C2": [
+       76,
+       73,
+       80
+      ],
+      "C3": [
+       98,
+       88,
+       98
+      ],
+      "C4": [
+       90,
+       69,
+       78
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       91,
+       74,
+       93
+      ],
+      "C2": [
+       83,
+       66,
+       79
+      ],
+      "C3": [
+       98,
+       98,
+       86
+      ],
+      "C4": [
+       84,
+       72,
+       78
+      ]
+     },
+     "duration_minutes": 37
+    }
+   }
+  },
+  {
+   "index": 31,
+   "username": "e3",
+   "full_name": "Rustamov Bekzod",
+   "position": "Tuman hokimligi AKT mas’ul xodimi",
+   "group": "district",
+   "agency": "dis-1",
+   "experience_years": 2,
+   "pinfl": "31000001472137",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       60,
+       50,
+       47
+      ],
+      "C2": [
+       52,
+       45,
+       41
+      ],
+      "C3": [
+       48,
+       40,
+       35
+      ],
+      "C4": [
+       65,
+       55,
+       55
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       57,
+       61,
+       38
+      ],
+      "C2": [
+       37,
+       53,
+       48
+      ],
+      "C3": [
+       37,
+       35,
+       51
+      ],
+      "C4": [
+       60,
+       61,
+       53
+      ]
+     },
+     "duration_minutes": 38
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       73,
+       72,
+       71
+      ],
+      "C2": [
+       79,
+       67,
+       65
+      ],
+      "C3": [
+       81,
+       57,
+       63
+      ],
+      "C4": [
+       84,
+       70,
+       76
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       77,
+       70,
+       69
+      ],
+      "C2": [
+       69,
+       74,
+       67
+      ],
+      "C3": [
+       63,
+       75,
+       60
+      ],
+      "C4": [
+       83,
+       82,
+       63
+      ]
+     },
+     "duration_minutes": 38
+    }
+   }
+  },
+  {
+   "index": 32,
+   "username": "x32",
+   "full_name": "Usmonova Feruza",
+   "position": "Texnik xizmat ko‘rsatish mutaxassisi",
+   "group": "district",
+   "agency": "dis-2",
+   "experience_years": 10,
+   "pinfl": "31000001480056",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       99,
+       82,
+       85
+      ],
+      "C2": [
+       20,
+       21,
+       22
+      ],
+      "C3": [
+       38,
+       25,
+       32
+      ],
+      "C4": [
+       64,
+       63,
+       62
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       94,
+       84,
+       86
+      ],
+      "C2": [
+       17,
+       31,
+       15
+      ],
+      "C3": [
+       35,
+       28,
+       30
+      ],
+      "C4": [
+       55,
+       66,
+       68
+      ]
+     },
+     "duration_minutes": 39
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       100,
+       85,
+       90
+      ],
+      "C2": [
+       99,
+       90,
+       91
+      ],
+      "C3": [
+       48,
+       49,
+       50
+      ],
+      "C4": [
+       93,
+       72,
+       81
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       98,
+       88,
+       87
+      ],
+      "C2": [
+       90,
+       95,
+       94
+      ],
+      "C3": [
+       45,
+       40,
+       62
+      ],
+      "C4": [
+       70,
+       85,
+       88
+      ]
+     },
+     "duration_minutes": 39
+    }
+   }
+  },
+  {
+   "index": 33,
+   "username": "x33",
+   "full_name": "Xolmatova Nargiza",
+   "position": "Axborot tizimlari operatori",
+   "group": "district",
+   "agency": "dis-3",
+   "experience_years": 9,
+   "pinfl": "31000001487975",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       71,
+       50,
+       59
+      ],
+      "C2": [
+       32,
+       26,
+       30
+      ],
+      "C3": [
+       31,
+       22,
+       23
+      ],
+      "C4": [
+       73,
+       70,
+       67
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       64,
+       52,
+       61
+      ],
+      "C2": [
+       40,
+       23,
+       24
+      ],
+      "C3": [
+       19,
+       29,
+       27
+      ],
+      "C4": [
+       63,
+       82,
+       65
+      ]
+     },
+     "duration_minutes": 40
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       87,
+       88,
+       89
+      ],
+      "C2": [
+       71,
+       55,
+       59
+      ],
+      "C3": [
+       93,
+       91,
+       99
+      ],
+      "C4": [
+       71,
+       69,
+       77
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       90,
+       94,
+       80
+      ],
+      "C2": [
+       53,
+       74,
+       56
+      ],
+      "C3": [
+       91,
+       86,
+       100
+      ],
+      "C4": [
+       74,
+       64,
+       78
+      ]
+     },
+     "duration_minutes": 40
+    }
+   }
+  },
+  {
+   "index": 34,
+   "username": "x34",
+   "full_name": "Yo‘ldosheva Feruza",
+   "position": "Kompyuter tarmoqlari mutaxassisi",
+   "group": "district",
+   "agency": "dis-1",
+   "experience_years": 8,
+   "pinfl": "31000001495894",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       73,
+       66,
+       69
+      ],
+      "C2": [
+       70,
+       49,
+       48
+      ],
+      "C3": [
+       57,
+       61,
+       65
+      ],
+      "C4": [
+       69,
+       56,
+       63
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       75,
+       74,
+       58
+      ],
+      "C2": [
+       53,
+       57,
+       55
+      ],
+      "C3": [
+       69,
+       45,
+       69
+      ],
+      "C4": [
+       72,
+       55,
+       59
+      ]
+     },
+     "duration_minutes": 30
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       96,
+       69,
+       72
+      ],
+      "C2": [
+       73,
+       59,
+       65
+      ],
+      "C3": [
+       73,
+       63,
+       63
+      ],
+      "C4": [
+       77,
+       79,
+       81
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       84,
+       74,
+       76
+      ],
+      "C2": [
+       67,
+       57,
+       71
+      ],
+      "C3": [
+       62,
+       71,
+       65
+      ],
+      "C4": [
+       65,
+       84,
+       88
+      ]
+     },
+     "duration_minutes": 30
+    }
+   }
+  },
+  {
+   "index": 35,
+   "username": "x35",
+   "full_name": "Fayziyev Ulug‘bek",
+   "position": "Kompyuter tarmoqlari mutaxassisi",
+   "group": "district",
+   "agency": "dis-2",
+   "experience_years": 4,
+   "pinfl": "31000001503813",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       81,
+       63,
+       65
+      ],
+      "C2": [
+       38,
+       25,
+       22
+      ],
+      "C3": [
+       40,
+       38,
+       36
+      ],
+      "C4": [
+       72,
+       70,
+       78
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       66,
+       68,
+       73
+      ],
+      "C2": [
+       19,
+       35,
+       30
+      ],
+      "C3": [
+       36,
+       35,
+       43
+      ],
+      "C4": [
+       79,
+       65,
+       75
+      ]
+     },
+     "duration_minutes": 31
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       96,
+       84,
+       92
+      ],
+      "C2": [
+       87,
+       83,
+       79
+      ],
+      "C3": [
+       100,
+       83,
+       86
+      ],
+      "C4": [
+       85,
+       73,
+       81
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       98,
+       82,
+       90
+      ],
+      "C2": [
+       92,
+       80,
+       77
+      ],
+      "C3": [
+       84,
+       89,
+       94
+      ],
+      "C4": [
+       77,
+       78,
+       82
+      ]
+     },
+     "duration_minutes": 31
+    }
+   }
+  },
+  {
+   "index": 36,
+   "username": "x36",
+   "full_name": "Olimov Dilshod",
+   "position": "Kompyuter tarmoqlari mutaxassisi",
+   "group": "district",
+   "agency": "dis-3",
+   "experience_years": 2,
+   "pinfl": "31000001511732",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       52,
+       47,
+       52
+      ],
+      "C2": [
+       62,
+       46,
+       60
+      ],
+      "C3": [
+       87,
+       62,
+       67
+      ],
+      "C4": [
+       55,
+       36,
+       47
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       50,
+       54,
+       46
+      ],
+      "C2": [
+       64,
+       51,
+       50
+      ],
+      "C3": [
+       68,
+       69,
+       76
+      ],
+      "C4": [
+       48,
+       49,
+       38
+      ]
+     },
+     "duration_minutes": 32
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       76,
+       60,
+       64
+      ],
+      "C2": [
+       94,
+       76,
+       78
+      ],
+      "C3": [
+       99,
+       90,
+       91
+      ],
+      "C4": [
+       89,
+       88,
+       87
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       67,
+       57,
+       74
+      ],
+      "C2": [
+       78,
+       89,
+       79
+      ],
+      "C3": [
+       100,
+       88,
+       90
+      ],
+      "C4": [
+       85,
+       85,
+       94
+      ]
+     },
+     "duration_minutes": 32
+    }
+   }
+  },
+  {
+   "index": 37,
+   "username": "x37",
+   "full_name": "Qodirov Valijon",
+   "position": "Kompyuter tarmoqlari mutaxassisi",
+   "group": "district",
+   "agency": "dis-1",
+   "experience_years": 8,
+   "pinfl": "31000001519651",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       79,
+       51,
+       53
+      ],
+      "C2": [
+       64,
+       52,
+       60
+      ],
+      "C3": [
+       45,
+       48,
+       51
+      ],
+      "C4": [
+       92,
+       76,
+       90
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       53,
+       60,
+       67
+      ],
+      "C2": [
+       64,
+       48,
+       62
+      ],
+      "C3": [
+       49,
+       49,
+       46
+      ],
+      "C4": [
+       83,
+       86,
+       86
+      ]
+     },
+     "duration_minutes": 33
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       100,
+       81,
+       92
+      ],
+      "C2": [
+       95,
+       96,
+       97
+      ],
+      "C3": [
+       100,
+       99,
+       98
+      ],
+      "C4": [
+       100,
+       94,
+       88
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       90,
+       96,
+       84
+      ],
+      "C2": [
+       88,
+       95,
+       100
+      ],
+      "C3": [
+       100,
+       91,
+       100
+      ],
+      "C4": [
+       92,
+       85,
+       100
+      ]
+     },
+     "duration_minutes": 33
+    }
+   }
+  },
+  {
+   "index": 38,
+   "username": "x38",
+   "full_name": "Ismoilova Madina",
+   "position": "Kompyuter tarmoqlari mutaxassisi",
+   "group": "district",
+   "agency": "dis-2",
+   "experience_years": 7,
+   "pinfl": "31000001527570",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       65,
+       55,
+       55
+      ],
+      "C2": [
+       87,
+       70,
+       73
+      ],
+      "C3": [
+       75,
+       52,
+       59
+      ],
+      "C4": [
+       96,
+       83,
+       90
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       50,
+       55,
+       69
+      ],
+      "C2": [
+       81,
+       62,
+       85
+      ],
+      "C3": [
+       70,
+       58,
+       55
+      ],
+      "C4": [
+       90,
+       85,
+       92
+      ]
+     },
+     "duration_minutes": 34
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       97,
+       80,
+       93
+      ],
+      "C2": [
+       99,
+       84,
+       89
+      ],
+      "C3": [
+       77,
+       57,
+       57
+      ],
+      "C4": [
+       99,
+       98,
+       97
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       89,
+       80,
+       98
+      ],
+      "C2": [
+       82,
+       98,
+       90
+      ],
+      "C3": [
+       65,
+       57,
+       67
+      ],
+      "C4": [
+       100,
+       92,
+       95
+      ]
+     },
+     "duration_minutes": 34
+    }
+   }
+  },
+  {
+   "index": 39,
+   "username": "x39",
+   "full_name": "Olimov Laziz",
+   "position": "Kompyuter tarmoqlari mutaxassisi",
+   "group": "district",
+   "agency": "dis-3",
+   "experience_years": 1,
+   "pinfl": "31000001535489",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       59,
+       37,
+       45
+      ],
+      "C2": [
+       41,
+       35,
+       29
+      ],
+      "C3": [
+       23,
+       22,
+       21
+      ],
+      "C4": [
+       81,
+       83,
+       85
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       48,
+       37,
+       53
+      ],
+      "C2": [
+       43,
+       31,
+       31
+      ],
+      "C3": [
+       25,
+       10,
+       31
+      ],
+      "C4": [
+       90,
+       88,
+       71
+      ]
+     },
+     "duration_minutes": 35
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       91,
+       91,
+       91
+      ],
+      "C2": [
+       86,
+       65,
+       64
+      ],
+      "C3": [
+       77,
+       74,
+       81
+      ],
+      "C4": [
+       96,
+       90,
+       84
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       91,
+       100,
+       82
+      ],
+      "C2": [
+       83,
+       64,
+       66
+      ],
+      "C3": [
+       81,
+       80,
+       70
+      ],
+      "C4": [
+       84,
+       98,
+       88
+      ]
+     },
+     "duration_minutes": 35
+    }
+   }
+  },
+  {
+   "index": 40,
+   "username": "x40",
+   "full_name": "Zokirov Yusuf",
+   "position": "Axborot tizimlari operatori",
+   "group": "district",
+   "agency": "dis-1",
+   "experience_years": 13,
+   "pinfl": "31000001543408",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       57,
+       56,
+       55
+      ],
+      "C2": [
+       62,
+       53,
+       64
+      ],
+      "C3": [
+       33,
+       30,
+       37
+      ],
+      "C4": [
+       91,
+       67,
+       73
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       48,
+       64,
+       56
+      ],
+      "C2": [
+       61,
+       50,
+       66
+      ],
+      "C3": [
+       41,
+       19,
+       39
+      ],
+      "C4": [
+       69,
+       70,
+       89
+      ]
+     },
+     "duration_minutes": 36
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       69,
+       67,
+       75
+      ],
+      "C2": [
+       83,
+       69,
+       65
+      ],
+      "C3": [
+       54,
+       52,
+       60
+      ],
+      "C4": [
+       98,
+       79,
+       80
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       72,
+       78,
+       60
+      ],
+      "C2": [
+       63,
+       80,
+       73
+      ],
+      "C3": [
+       53,
+       53,
+       59
+      ],
+      "C4": [
+       85,
+       79,
+       91
+      ]
+     },
+     "duration_minutes": 36
+    }
+   }
+  },
+  {
+   "index": 41,
+   "username": "x41",
+   "full_name": "Hamidova Dilnoza",
+   "position": "Texnik xizmat ko‘rsatish mutaxassisi",
+   "group": "district",
+   "agency": "dis-2",
+   "experience_years": 4,
+   "pinfl": "31000001551327",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       83,
+       78,
+       73
+      ],
+      "C2": [
+       39,
+       25,
+       31
+      ],
+      "C3": [
+       45,
+       39,
+       33
+      ],
+      "C4": [
+       47,
+       48,
+       49
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       79,
+       70,
+       85
+      ],
+      "C2": [
+       36,
+       40,
+       17
+      ],
+      "C3": [
+       40,
+       31,
+       46
+      ],
+      "C4": [
+       40,
+       54,
+       50
+      ]
+     },
+     "duration_minutes": 37
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       98,
+       97,
+       96
+      ],
+      "C2": [
+       64,
+       58,
+       62
+      ],
+      "C3": [
+       95,
+       97,
+       99
+      ],
+      "C4": [
+       100,
+       86,
+       82
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       89,
+       98,
+       100
+      ],
+      "C2": [
+       59,
+       59,
+       65
+      ],
+      "C3": [
+       95,
+       100,
+       93
+      ],
+      "C4": [
+       85,
+       94,
+       88
+      ]
+     },
+     "duration_minutes": 37
+    }
+   }
+  },
+  {
+   "index": 42,
+   "username": "x42",
+   "full_name": "Jo‘rayev Valijon",
+   "position": "Texnik xizmat ko‘rsatish mutaxassisi",
+   "group": "district",
+   "agency": "dis-3",
+   "experience_years": 6,
+   "pinfl": "31000001559246",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       76,
+       57,
+       68
+      ],
+      "C2": [
+       65,
+       60,
+       65
+      ],
+      "C3": [
+       38,
+       13,
+       18
+      ],
+      "C4": [
+       91,
+       64,
+       67
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       69,
+       74,
+       55
+      ],
+      "C2": [
+       55,
+       70,
+       64
+      ],
+      "C3": [
+       19,
+       20,
+       27
+      ],
+      "C4": [
+       64,
+       85,
+       70
+      ]
+     },
+     "duration_minutes": 38
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       77,
+       71,
+       75
+      ],
+      "C2": [
+       85,
+       65,
+       65
+      ],
+      "C3": [
+       85,
+       78,
+       71
+      ],
+      "C4": [
+       93,
+       81,
+       89
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       77,
+       69,
+       76
+      ],
+      "C2": [
+       61,
+       76,
+       76
+      ],
+      "C3": [
+       69,
+       85,
+       80
+      ],
+      "C4": [
+       88,
+       84,
+       89
+      ]
+     },
+     "duration_minutes": 38
+    }
+   }
+  },
+  {
+   "index": 43,
+   "username": "x43",
+   "full_name": "Olimov Elyor",
+   "position": "Raqamlashtirish bo‘yicha mas’ul",
+   "group": "district",
+   "agency": "dis-1",
+   "experience_years": 11,
+   "pinfl": "31000001567165",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       78,
+       74,
+       70
+      ],
+      "C2": [
+       87,
+       90,
+       93
+      ],
+      "C3": [
+       80,
+       52,
+       54
+      ],
+      "C4": [
+       78,
+       62,
+       76
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       65,
+       81,
+       76
+      ],
+      "C2": [
+       98,
+       73,
+       99
+      ],
+      "C3": [
+       66,
+       65,
+       52
+      ],
+      "C4": [
+       68,
+       69,
+       76
+      ]
+     },
+     "duration_minutes": 39
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       80,
+       77,
+       74
+      ],
+      "C2": [
+       99,
+       99,
+       99
+      ],
+      "C3": [
+       82,
+       55,
+       58
+      ],
+      "C4": [
+       99,
+       72,
+       75
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       83,
+       79,
+       69
+      ],
+      "C2": [
+       100,
+       96,
+       94
+      ],
+      "C3": [
+       58,
+       57,
+       77
+      ],
+      "C4": [
+       88,
+       66,
+       89
+      ]
+     },
+     "duration_minutes": 39
+    }
+   }
+  },
+  {
+   "index": 44,
+   "username": "x44",
+   "full_name": "Sharipov Sanjar",
+   "position": "Texnik xizmat ko‘rsatish mutaxassisi",
+   "group": "district",
+   "agency": "dis-2",
+   "experience_years": 1,
+   "pinfl": "31000001575084",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       24,
+       27,
+       30
+      ],
+      "C2": [
+       72,
+       51,
+       60
+      ],
+      "C3": [
+       76,
+       51,
+       56
+      ],
+      "C4": [
+       78,
+       71,
+       74
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       31,
+       24,
+       26
+      ],
+      "C2": [
+       59,
+       60,
+       61
+      ],
+      "C3": [
+       52,
+       73,
+       55
+      ],
+      "C4": [
+       66,
+       66,
+       90
+      ]
+     },
+     "duration_minutes": 40
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       91,
+       81,
+       81
+      ],
+      "C2": [
+       95,
+       80,
+       85
+      ],
+      "C3": [
+       83,
+       69,
+       75
+      ],
+      "C4": [
+       80,
+       85,
+       90
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       85,
+       86,
+       81
+      ],
+      "C2": [
+       86,
+       78,
+       94
+      ],
+      "C3": [
+       82,
+       74,
+       69
+      ],
+      "C4": [
+       79,
+       100,
+       76
+      ]
+     },
+     "duration_minutes": 40
+    }
+   }
+  },
+  {
+   "index": 45,
+   "username": "x45",
+   "full_name": "Ergashev Hasan",
+   "position": "Raqamlashtirish bo‘yicha mas’ul",
+   "group": "district",
+   "agency": "dis-3",
+   "experience_years": 13,
+   "pinfl": "31000001583003",
+   "sessions": {
+    "before": {
+     "ksa": {
+      "C1": [
+       88,
+       79,
+       80
+      ],
+      "C2": [
+       27,
+       17,
+       17
+      ],
+      "C3": [
+       38,
+       43,
+       48
+      ],
+      "C4": [
+       32,
+       21,
+       20
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       88,
+       80,
+       78
+      ],
+      "C2": [
+       32,
+       11,
+       17
+      ],
+      "C3": [
+       46,
+       38,
+       45
+      ],
+      "C4": [
+       22,
+       18,
+       32
+      ]
+     },
+     "duration_minutes": 30
+    },
+    "after": {
+     "ksa": {
+      "C1": [
+       99,
+       99,
+       99
+      ],
+      "C2": [
+       58,
+       53,
+       48
+      ],
+      "C3": [
+       68,
+       51,
+       54
+      ],
+      "C4": [
+       86,
+       77,
+       88
+      ]
+     },
+     "sub_scores": {
+      "C1": [
+       96,
+       100,
+       99
+      ],
+      "C2": [
+       60,
+       51,
+       48
+      ],
+      "C3": [
+       64,
+       59,
+       48
+      ],
+      "C4": [
+       91,
+       87,
+       71
+      ]
+     },
+     "duration_minutes": 30
+    }
+   }
+  }
+ ]
+}
