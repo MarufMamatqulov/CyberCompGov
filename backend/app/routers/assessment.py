@@ -60,8 +60,8 @@ class SubmitIn(BaseModel):
 def submit(body: SubmitIn, db: Session = Depends(get_db), user: IctOfficer = Depends(current_user)):
     target = user
     if body.officer_id is not None and body.officer_id != user.id:
-        if user.role != "admin":
-            raise HTTPException(status.HTTP_403_FORBIDDEN, "Faqat komissiya boshqa xodimni baholay oladi")
+        if user.role not in ("admin", "expert"):
+            raise HTTPException(status.HTTP_403_FORBIDDEN, "Faqat komissiya yoki ekspert boshqa xodimni baholay oladi")
         target = db.get(IctOfficer, body.officer_id)
         if target is None:
             raise HTTPException(status.HTTP_404_NOT_FOUND, "Xodim topilmadi")

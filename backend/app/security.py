@@ -55,6 +55,26 @@ def require_admin(user: IctOfficer = Depends(current_user)) -> IctOfficer:
     return user
 
 
-def ensure_can_view(user: IctOfficer, officer_id: int) -> None:
-    if user.role != "admin" and user.id != officer_id:
-        raise HTTPException(status.HTTP_403_FORBIDDEN, "Boshqa xodim pasportini ko‘rish huquqi yo‘q")
+def require_admin_or_expert(user: IctOfficer = Depends(current_user)) -> IctOfficer:
+    if user.role not in ("admin", "expert"):
+        raise HTTPException(status.HTTP_403_FORBIDDEN, "Faqat komissiya va ekspertlar uchun")
+    return user
+
+
+def require_leadership(user: IctOfficer = Depends(current_user)) -> IctOfficer:
+    if user.role not in ("admin", "expert", "supervisor"):
+        raise HTTPException(status.HTTP_403_FORBIDDEN, "Faqat komissiya a’zolari va tashkilot rahbarlari uchun")
+    return user
+
+
+def ensure_can_view(user: IctOfficer, officer_id: int, db: Session | None = None) -> None:
+    if user.role in ("admin", "expert"):
+        return
+    if user.id == officer_id:
+        return
+    if user.role == "supervisor":
+        if db is not None:
+            target = db.get(IctOfficer, officer_id)
+            if target is not None and target.agency_id == user.agency_id:
+                return
+    raise HTTPException(status.HTTP_403_FORBIDDEN, "Boshqa xodim pasportini ko‘rish huquqi yo‘q")

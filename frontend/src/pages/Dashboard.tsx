@@ -45,7 +45,7 @@ export default function Dashboard() {
   return (
     <div className="space-y-6">
       <PageHeader title="Rahbariyat va analitika paneli"
-        subtitle="Eksperimental guruh (n = 45): manzilli o‘qitishdan oldingi va keyingi kompetensiya ko‘rsatkichlari (dissertatsiya, 3-bob)" />
+        subtitle="Davlat organlari va tashkilotlari AKT mas’ul xodimlari axborot xavfsizligi kompetensiyalari monitoringi va dinamikasi" />
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         <Stat label="Jami baholangan xodimlar" value={`n = ${k.n}`} icon={<Users size={18} />}
@@ -102,8 +102,8 @@ export default function Dashboard() {
         </Card>
       </div>
 
-      <Card title="Statistik verifikatsiya: juftlangan Student t-testi (3.3-jadval)"
-        subtitle={`df = ${exp.n - 1}; H₀: o‘qitishdan oldingi va keyingi o‘rtachalar teng`}>
+      <Card title="Statistik verifikatsiya va tahlil: juftlangan Student t-testi"
+        subtitle={`df = ${exp.n - 1}; H₀: o‘qitishdan oldingi va keyingi o‘rtachalar teng (p < 0.001 da statistik ahamiyatli)`}>
         <div className="overflow-x-auto">
           <table className="w-full min-w-[720px] text-sm">
             <thead className="bg-slate-50 text-left text-xs uppercase tracking-wide text-slate-500">

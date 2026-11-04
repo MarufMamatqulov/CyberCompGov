@@ -20,9 +20,10 @@ export interface User {
   id: number;
   username: string;
   full_name: string;
-  role: "admin" | "officer";
+  role: "admin" | "expert" | "supervisor" | "officer";
   position: string;
   agency: string;
+  agency_id?: number;
   category: string;
 }
 

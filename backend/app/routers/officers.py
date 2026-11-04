@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session, selectinload
 
 from app.database import get_db
 from app.models import EvalSession, IctOfficer
-from app.security import current_user, ensure_can_view, require_admin
+from app.security import current_user, ensure_can_view, require_leadership
 from app.services.scoring_engine import BLOCKS, C_MIN, DEFAULT_WEIGHTS, GAP_TRIGGER
 
 router = APIRouter(prefix="/api/officers", tags=["officers"])
@@ -48,9 +48,11 @@ def officer_out(o: IctOfficer) -> dict:
 
 @router.get("")
 def list_officers(search: str = "", group: str = "", level: str = "", db: Session = Depends(get_db),
-                  _: IctOfficer = Depends(require_admin)):
+                  user: IctOfficer = Depends(require_leadership)):
     q = (select(IctOfficer).where(IctOfficer.role == "officer")
          .options(selectinload(IctOfficer.sessions), selectinload(IctOfficer.agency)).order_by(IctOfficer.id))
+    if user.role == "supervisor":
+        q = q.where(IctOfficer.agency_id == user.agency_id)
     rows = []
     needle = search.strip().lower()
     for o in db.scalars(q).all():
@@ -76,7 +78,7 @@ def list_officers(search: str = "", group: str = "", level: str = "", db: Sessio
 @router.get("/{officer_id}/passport")
 def passport(officer_id: int, session_id: int | None = Query(default=None), db: Session = Depends(get_db),
              user: IctOfficer = Depends(current_user)):
-    ensure_can_view(user, officer_id)
+    ensure_can_view(user, officer_id, db)
     o = db.get(IctOfficer, officer_id)
     if o is None:
         raise HTTPException(status.HTTP_404_NOT_FOUND, "Xodim topilmadi")

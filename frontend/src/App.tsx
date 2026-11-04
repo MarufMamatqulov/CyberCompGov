@@ -9,31 +9,49 @@ import Catalog from "./pages/Catalog";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import PassportPage from "./pages/Passport";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Terms from "./pages/Terms";
 import Verify from "./pages/Verify";
 
-function RequireAuth({ children, admin = false }: { children: ReactNode; admin?: boolean }) {
+function RequireAuth({ children, leadership = false }: { children: ReactNode; leadership?: boolean }) {
   const { user, loading } = useAuth();
   const location = useLocation();
   if (loading) return <Spinner />;
   if (!user) return <Navigate to="/login" state={{ from: location.pathname }} replace />;
-  if (admin && user.role !== "admin") return <Navigate to={`/passport/${user.id}`} replace />;
+  if (leadership && user.role === "officer") return <Navigate to={`/passport/${user.id}`} replace />;
   return <>{children}</>;
 }
 
 function Home() {
   const { user } = useAuth();
   if (!user) return <Navigate to="/login" replace />;
-  return <Navigate to={user.role === "admin" ? "/dashboard" : `/passport/${user.id}`} replace />;
+  const isLeadership = user.role === "admin" || user.role === "expert" || user.role === "supervisor";
+  return <Navigate to={isLeadership ? "/dashboard" : `/passport/${user.id}`} replace />;
 }
 
 export default function App() {
   return (
     <Routes>
       <Route path="/login" element={<Login />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/terms" element={<Terms />} />
       <Route path="/verify/:code" element={<Verify />} />
-      <Route element={<RequireAuth><Layout /></RequireAuth>}>
+      <Route
+        element={
+          <RequireAuth>
+            <Layout />
+          </RequireAuth>
+        }
+      >
         <Route path="/" element={<Home />} />
-        <Route path="/dashboard" element={<RequireAuth admin><Dashboard /></RequireAuth>} />
+        <Route
+          path="/dashboard"
+          element={
+            <RequireAuth leadership>
+              <Dashboard />
+            </RequireAuth>
+          }
+        />
         <Route path="/assessment" element={<Assessment />} />
         <Route path="/passport/:officerId" element={<PassportPage />} />
         <Route path="/catalog" element={<Catalog />} />

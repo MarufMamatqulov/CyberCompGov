@@ -21,7 +21,7 @@ def session_pdf(session_id: int, db: Session = Depends(get_db), user: IctOfficer
     sess = db.get(EvalSession, session_id)
     if sess is None:
         raise HTTPException(status.HTTP_404_NOT_FOUND, "Sessiya topilmadi")
-    ensure_can_view(user, sess.officer_id)
+    ensure_can_view(user, sess.officer_id, db)
     pdf = build_passport_pdf(sess, verify_url(sess.verify_code))
     filename = f"attestatsiya_pasporti_{sess.officer.username}_{sess.id}.pdf"
     return Response(pdf, media_type="application/pdf",

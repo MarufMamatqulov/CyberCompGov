@@ -40,7 +40,7 @@ export default function Assessment() {
       setContent(c);
       setCases(Object.fromEntries(c.cases.map((x) => [x.code, initialProgress(x)])));
     }).catch((e) => setError(e.message));
-    if (user?.role === "admin") api<RegistryRow[]>("/api/officers").then(setOfficers).catch(() => setOfficers([]));
+    if (user?.role === "admin" || user?.role === "expert") api<RegistryRow[]>("/api/officers").then(setOfficers).catch(() => setOfficers([]));
   }, [user]);
 
   useEffect(() => {

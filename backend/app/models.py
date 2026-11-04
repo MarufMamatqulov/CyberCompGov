@@ -32,7 +32,7 @@ class IctOfficer(Base):
     position: Mapped[str] = mapped_column(String(255))
     agency_id: Mapped[int] = mapped_column(ForeignKey("agencies.id"))
     experience_years: Mapped[int] = mapped_column(Integer, default=0)
-    role: Mapped[str] = mapped_column(String(16), default="officer")  # "admin" | "officer"
+    role: Mapped[str] = mapped_column(String(16), default="officer")  # "admin" | "expert" | "supervisor" | "officer"
     group: Mapped[str] = mapped_column(String(16), default="ministry")  # ministry | regional | district
     username: Mapped[str] = mapped_column(String(64), unique=True)
     password_hash: Mapped[str] = mapped_column(String(255))

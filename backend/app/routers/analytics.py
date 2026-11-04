@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session, selectinload
 
 from app.database import get_db
 from app.models import EvalSession, IctOfficer
-from app.security import require_admin
+from app.security import require_leadership
 from app.services.scoring_engine import LEVELS, LEVEL_EXPERT, LEVEL_QUALIFIED
 from app.services.stats import paired_t_test
 
@@ -23,7 +23,7 @@ def _r(x: float, d: int = 2) -> float:
 
 
 @router.get("/experiment")
-def experiment(db: Session = Depends(get_db), _: IctOfficer = Depends(require_admin)):
+def experiment(db: Session = Depends(get_db), _: IctOfficer = Depends(require_leadership)):
     officers = db.scalars(select(IctOfficer).where(IctOfficer.role == "officer")
                           .options(selectinload(IctOfficer.sessions))).all()
     pairs = []
